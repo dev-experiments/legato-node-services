@@ -1,5 +1,4 @@
 const proHttp = require("./../../../utility/proHttp");
-const autosuggest = require("./../../global/Autosuggest");
 
 class Users {
     constructor(req, res, next) {
@@ -33,4 +32,4 @@ class Users {
     }
 }
 
-module.exports = DestinationSearch;
+module.exports = Users;

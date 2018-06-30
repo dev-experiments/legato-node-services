@@ -1,5 +1,5 @@
 {
-  "name": "hotels-express-server",
+  "name": "legato-express-server",
   "version": "1.0.0",
   "scripts": {
     "server": "nodemon index.js",
@@ -11,6 +11,7 @@
     "express": "^4.16.2"
   },
   "devDependencies": {
-    "concurrently": "^3.5.0"
+    "concurrently": "^3.5.0",
+    "nodemon": "^1.17.5"
   }
 }
